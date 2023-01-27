@@ -1,0 +1,35 @@
+.search__section{
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+}
+
+.search__wrapper{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 700px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    padding: 8px 1rem;
+}
+
+.type__wrapper{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.search_input_field{
+    background: none;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+}
+
+.search__btn{
+    display: flex;
+    margin-left: auto;   
+}
