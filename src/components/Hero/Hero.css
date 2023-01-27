@@ -1,11 +1,12 @@
 .hero__container{
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
 }
 
 .hero__image{
     width: 100%;
     height: 100%;
-    background: linear-gradient(60deg, #e0e0e0, #a2ffcb);
+    background: linear-gradient(60deg, #e0e0e0, #dadada);
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
 }
 
@@ -15,4 +16,16 @@
     object-fit: cover;
     mix-blend-mode: multiply;
     z-index: 100;
+}
+
+.percent__discount{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    color: var(--third-color);
+}
+
+.new__member_text{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    color: var(--secondary-color);
 }

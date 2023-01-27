@@ -1,0 +1,24 @@
+.analytics__container{
+    grid-template-columns: repeat(4, 1fr);
+    background-color: var(--secondary-color);
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.analytic__content{
+    text-align: center;
+}
+
+.analytics__counter span{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    color: var(--container-color);
+}
+
+.analytics__description span{
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    color: var(--container-color);
+}
