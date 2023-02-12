@@ -1,11 +1,12 @@
 import React from 'react';
 import {
-    createBrowserRouter,
+	createBrowserRouter,
 	createRoutesFromElements,
 	Route,
 	RouterProvider,
 } from 'react-router-dom';
 import Home from '../pages/home/Home';
+import JobResult from '../pages/SearchResult/JobResult';
 import Root from './Root';
 
 const Routers = () => {
@@ -13,6 +14,7 @@ const Routers = () => {
 		createRoutesFromElements(
 			<Route path="/" element={<Root />}>
 				<Route index element={<Home />} />
+				<Route path='/search-jobs' element={<JobResult />} />
 			</Route>
 		)
 	);
