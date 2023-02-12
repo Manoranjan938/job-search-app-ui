@@ -1,5 +1,6 @@
 import React from 'react';
 import Category from '../../components/Category/Category';
+import Footer from '../../components/Footer/Footer';
 import Hero from '../../components/Hero/Hero';
 import HomeFeaturedJob from '../../components/FeaturedJob/HomeFeaturedJob';
 // import HomeNews from '../../components/HomeNews/HomeNews';
@@ -22,6 +23,7 @@ const Home = () => (
 		{/* <HomeNews />
 		<Testimonial /> */}
 		<UserType />
+		<Footer />
 	</>
 );
 
