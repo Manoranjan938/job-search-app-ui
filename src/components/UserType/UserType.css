@@ -13,7 +13,7 @@
     color: var(--container-color);
 }
 
-h4{
+.employer, .candidate > h4{
     text-transform: uppercase;
     margin-bottom: 14px;
 }

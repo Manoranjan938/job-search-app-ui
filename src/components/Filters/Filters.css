@@ -1,0 +1,35 @@
+.filters_section{
+    background-color: var(--container-color);
+    padding: .7rem 1rem;
+    border-radius: .5rem;
+}
+
+.filter_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordion_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .2rem;
+    cursor: pointer;
+}
+
+.accordion_content{
+    display: none;
+    transition: 200ms ease-in-out;
+}
+
+.active_content{
+    display: block;
+}
+
+.content_item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 5px 0;
+}
