@@ -13,7 +13,15 @@ const Search = () => {
 	});
 	const navigate = useNavigate();
 	const handleSearch = () => {
-		navigate(`/search-jobs?key=${param.title}&loc=${param.location}`);
+		if(param.location){
+			navigate(`/search-jobs?loc=${param.location}`);
+		}
+		if(param.title){
+			navigate(`/search-jobs?key=${param.title}`);
+		}
+		if(param.title && param.location){
+			navigate(`/search-jobs?key=${param.title}&loc=${param.location}`);
+		}
 	};
 	const handleChange = (prop) => (event) =>{
 		setParam({...param, [prop]: event.target.value})

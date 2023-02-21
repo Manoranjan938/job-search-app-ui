@@ -7,11 +7,14 @@ import './SearchResult.css'
 const SearchResult = () => (
 	<section className="search_result_section section container">
 		<div className="filters_section">
-      <Filters />
-    </div>
-    <div className="job_list_section">
-      <JobLists />
-    </div>
+			<Filters />
+		</div>
+		<div className="job_list_section">
+			<JobLists />
+		</div>
+		<div className="featured_job_companies">
+			<h4>Some Companies</h4>
+		</div>
 	</section>
 );
 

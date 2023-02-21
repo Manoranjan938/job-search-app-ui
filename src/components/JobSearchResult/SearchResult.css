@@ -8,5 +8,10 @@
 }
 
 .job_list_section{
-    flex: 3;
+    flex: 2.5;
+}
+
+.featured_job_companies{
+    flex: 1;
+    position: relative;
 }

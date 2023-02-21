@@ -2,6 +2,8 @@
     background-color: var(--container-color);
     padding: .7rem 1rem;
     border-radius: .5rem;
+    height: 100%;
+    width: 100%;
 }
 
 .filter_header{

@@ -1,4 +1,6 @@
 import React from 'react';
+import JobCard from '../JobCard/JobCard';
+import Pagination from '../Pagination/Pagination';
 
 import './JobList.css'
 
@@ -13,7 +15,15 @@ const JobLists = () => (
 				<span>Sort by:</span>
 			</div>
 		</div>
-		{/* <div className="job_list_cards"></div> */}
+		<div className="job_list_cards">
+			<JobCard />
+			<JobCard />
+			<JobCard />
+			<JobCard />
+			<JobCard />
+			<JobCard />
+		</div>
+		<Pagination />
 	</section>
 );
 
