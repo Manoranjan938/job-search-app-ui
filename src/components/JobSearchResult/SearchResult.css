@@ -1,0 +1,17 @@
+.search_result_section{
+    display: flex;
+    gap: 2rem;
+}
+
+.filters_section{
+    flex: 1;
+}
+
+.job_list_section{
+    flex: 2.5;
+}
+
+.featured_job_companies{
+    flex: 1;
+    position: relative;
+}
