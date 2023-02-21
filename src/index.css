@@ -49,3 +49,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+::-webkit-scrollbar{
+  width: 11px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: var(--container-color);
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #999999;
+  border: 3px solid transparent;
+  border-radius: 20px;
+  background-clip: content-box;
+}

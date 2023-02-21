@@ -36,12 +36,12 @@ const Header = () => {
 							</Link>
 						</li>
 						<li className="nav__item">
-							<Link to="/jobs" className="nav__link small-button-outlined-green">
+							<Link to="/login" className="nav__link small-button-outlined-green">
 								<MdLogin className="nav__icons" /> Login
 							</Link>
 						</li>
 						<li className="nav__item">
-							<Link to="/jobs" className="nav__link small-button button-green">
+							<Link to="/create-account" className="nav__link small-button button-green">
 								<GrUserNew className="nav__icons" /> Register
 							</Link>
 						</li>

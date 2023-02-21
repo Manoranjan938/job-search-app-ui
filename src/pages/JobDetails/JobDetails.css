@@ -1,0 +1,13 @@
+.job_details_page{
+    display: flex;
+    padding: 4rem 0 1rem;
+    gap: 20px;
+}
+
+.job_details_section{
+    flex: 3;
+}
+
+.job_suggestion_section{
+    flex: 2;
+}

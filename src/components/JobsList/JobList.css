@@ -1,0 +1,19 @@
+.job_list_headers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job_counts{
+    display: flex;
+    gap: 10px;
+}
+
+.count, .job_name{
+    font-size: 13px;
+}
+
+.job_name{
+    font-weight: 600;
+    text-transform: capitalize;
+}
