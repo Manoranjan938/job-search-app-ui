@@ -9,7 +9,9 @@ import ErrorPage from '../pages/error/ErrorPage';
 import Home from '../pages/home/Home';
 import JobDetails from '../pages/JobDetails/JobDetails';
 import JobResult from '../pages/SearchResult/JobResult';
+import Loader from '../components/Loader/Loader';
 import Root from './Root';
+import Signup from '../pages/singup/Signup';
 
 const Routers = () => {
 	const router = createBrowserRouter(
@@ -18,6 +20,8 @@ const Routers = () => {
 				<Route index element={<Home />} />
 				<Route path="/search-jobs" element={<JobResult />} />
 				<Route path="/job-details" element={<JobDetails />} />
+				<Route path="/loader" element={<Loader />} />
+				<Route path="/create-account" element={<Signup />} />
 			</Route>
 		)
 	);

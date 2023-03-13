@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-const Loader = () => {
-  return (
-    <div>Loader</div>
-  )
-}
+import './Loader.css';
 
-export default Loader
+const Loader = () => (
+	<div className="loader_container">
+		<div className="box box1" />
+		<div className="box box3" />
+		<div className="box box4" />
+		<div className="box box5" />
+	</div>
+);
+
+export default Loader;

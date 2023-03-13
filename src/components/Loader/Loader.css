@@ -1,0 +1,127 @@
+.loader_container{
+    display: flex;
+    width: 300px;
+    margin: 10% auto;
+    gap: 10px;
+}
+
+.box{
+    width: 30px;
+    height: 30px;
+    margin: 10px 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+.box1{
+    background: linear-gradient(0deg, #f57b34, #f9a16f);
+    animation-name: movebox1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+.box3{
+    background: linear-gradient(0deg, #f57b34, #f9a16f);
+    animation-name: movebox2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-delay: 1.5s;
+}
+
+.box4{
+    background: linear-gradient(0deg, #f57b34, #f9a16f);
+    animation-name: movebox3;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+}
+
+.box5{
+    background: linear-gradient(0deg, #f57b34, #f9a16f);
+    animation-name: movebox4;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-delay: 4.5s;
+}
+
+@keyframes movebox1{
+    0%{
+        left: 0;
+        top: 0;
+    }
+
+    25%{
+        left: 0;
+        top: 40px;
+    }
+
+    50%{
+        left: 40px;
+        top: 40px;
+    }
+
+    100%{
+        left: 40px;
+        top: 0px;
+    }
+}
+
+@keyframes movebox2{
+    0%{
+        left: 0;
+        top: 0;
+    }
+
+    25%{
+        left: 0;
+        top: -40px;
+    }
+
+    50%{
+        left: 40px;
+        top: -40px;
+    }
+
+    100%{
+        left: 40px;
+        top: 0px;
+    }
+}
+
+@keyframes movebox3{
+    0%{
+        left: 0;
+        top: 0;
+    }
+
+    25%{
+        left: 0;
+        top:40px
+    }
+
+    50%{
+        left: 40px;
+        top: 40px;
+    }
+
+    100%{
+        left: 40px;
+        top: 0px;
+    }
+}
+
+@keyframes movebox4{
+    0%{
+        left: 0;
+        top: 0;
+    }
+
+    100%{
+        left: -80px;
+        top: 0;
+    }
+}
