@@ -87,11 +87,11 @@ img {
 }
 
 .button-green {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color)!important;
 }
 
 .button-orange {
-    background-color: var(--third-color);
+    background-color: var(--third-color)!important;
 }
 
 .small-button {

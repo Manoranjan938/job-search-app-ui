@@ -16,7 +16,7 @@ const SignUp = () => (
 			<h3>Sign up to jobfinder</h3>
 			<h6>
 				Already a member?&nbsp;
-				<Link to="/login" className="">
+				<Link to="/login" className="text-primary">
 					Login
 				</Link>
 			</h6>

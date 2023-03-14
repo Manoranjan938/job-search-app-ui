@@ -26,7 +26,7 @@ const ChooseUserType = ({ currentPage, setCurrentPage }) => {
 				</div>
 			</section>
 			<button
-				className="next-btn small-button button-green container"
+				className="next-btn small-button button-green"
 				type="button"
 				onClick={moveNextPage}
 			>
