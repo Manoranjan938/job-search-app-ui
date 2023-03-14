@@ -5,7 +5,7 @@ import JobLists from '../JobsList/JobLists';
 import './SearchResult.css'
 
 const SearchResult = () => (
-	<section className="search_result_section section container">
+	<section className="search_result_section container">
 		<div className="filters_section">
 			<Filters />
 		</div>
