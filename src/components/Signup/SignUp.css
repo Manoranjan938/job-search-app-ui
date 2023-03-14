@@ -1,0 +1,73 @@
+.signup_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup_info_card{
+    width: 250px;
+    height: auto;
+    padding: 4rem 1.5rem;
+    background: var(--container-color);
+    border-radius: 1rem .5rem;
+    box-shadow: 15px 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.signup_info_card h3{
+    margin-bottom: 10px;
+}
+
+.signup_info_card p{
+    font-size: 15px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.signup_info_card p::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    font-weight: 800;
+    margin-right: 10px;
+    font-size: 22px;
+    color: var(--secondary-color);
+}
+
+.sign_up_card{
+    width: 400px;
+    height: auto;
+    padding: 4rem;
+    background: var(--container-color);
+    border-radius: 1rem .5rem;
+}
+
+.sign_up_card h5{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #c1c1c1;
+}
+
+.sign_up_card > h3{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.sign_up_card h6{
+    font-size: 14px;
+    color: #c1c1c1;
+    margin-bottom: 10px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field{
+    width: 100%;
+    height: 40px;
+    margin: 5px 0;
+    border: 2px solid #c1c1c1;
+    border-radius: .3rem;
+    outline: none;
+    padding: 0 .5rem;
+}
