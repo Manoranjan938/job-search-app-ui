@@ -9,9 +9,11 @@ const SignUp = () => {
 	const handleSubmit = (event) => {
 		event.preventDefault();
 		if (Object.keys(error).length === 0 && Object.keys(values).length !== 0) {
-			// console.log('Success');
+			// console.log(values);
+			// console.log(error);
 		} else {
-			// console.log('Something happened');
+			// console.log(values);
+			// console.log(error);
 		}
 	};
 
@@ -45,12 +47,24 @@ const SignUp = () => {
 				{error.name ? <p className="error_message">{error.name}</p> : null}
 				<div className="input-group">
 					<label htmlFor="email">Email</label>
-					<input type="text" className="input-field" id="email" />
+					<input
+						type="text"
+						className="input-field"
+						id="email"
+						onChange={handleChange('email')}
+					/>
 				</div>
+				{error.email ? <p className="error_message">{error.email}</p> : null}
 				<div className="input-group">
 					<label htmlFor="phone">Phone</label>
-					<input type="text" className="input-field" id="phone" />
+					<input
+						type="text"
+						className="input-field"
+						id="phone"
+						onChange={handleChange('phone')}
+					/>
 				</div>
+				{error.phone ? <p className="error_message">{error.phone}</p> : null}
 				<div className="input-group">
 					<label htmlFor="password">Password</label>
 					<input type="text" className="input-field" id="password" />
