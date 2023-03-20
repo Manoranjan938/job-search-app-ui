@@ -69,7 +69,7 @@ const SignUp = () => {
 					<label htmlFor="password">Password</label>
 					<input type="text" className="input-field" id="password" />
 				</div>
-				<button className="small-button button-green w-100" type="submit">
+				<button className="small-button account-btn button-green w-100" type="submit">
 					Create an Account
 				</button>
 			</form>
