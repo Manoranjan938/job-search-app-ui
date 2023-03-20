@@ -77,6 +77,11 @@ img {
     gap: 1.5rem;
 }
 
+.error_message{
+    font-size: 14px;
+    color: var(--third-color);
+}
+
 /*============== BUTTON =============*/
 .button {
     display: inline-block;
@@ -100,10 +105,11 @@ img {
     padding: .5rem 1.2rem;
     border-radius: .6rem;
     font-weight: var(--font-medium);
+    transition: 250ms;
 }
 
 .small-button-outlined-green {
-    display: inline-block;
+    display: flex;
     background-color: #fff;
     padding: .5rem 1.2rem;
     border-radius: .6rem;
