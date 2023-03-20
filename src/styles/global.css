@@ -105,10 +105,11 @@ img {
     padding: .5rem 1.2rem;
     border-radius: .6rem;
     font-weight: var(--font-medium);
+    transition: 250ms;
 }
 
 .small-button-outlined-green {
-    display: inline-block;
+    display: flex;
     background-color: #fff;
     padding: .5rem 1.2rem;
     border-radius: .6rem;
