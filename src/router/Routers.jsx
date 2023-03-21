@@ -5,6 +5,7 @@ import {
 	Route,
 	RouterProvider,
 } from 'react-router-dom';
+import Companies from '../pages/companies/Companies';
 import ErrorPage from '../pages/error/ErrorPage';
 import Home from '../pages/home/Home';
 import JobDetails from '../pages/JobDetails/JobDetails';
@@ -24,6 +25,7 @@ const Routers = () => {
 				<Route path="/loader" element={<Loader />} />
 				<Route path="/create-account" element={<Signup />} />
 				<Route path="/login" element={<Login />} />
+				<Route path="/companies" element={<Companies />} />
 			</Route>
 		)
 	);

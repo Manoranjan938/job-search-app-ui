@@ -56,16 +56,13 @@ img {
 .section_title {
     font-size: var(--h1-font-size);
     color: #333;
+    text-align: center;
 }
 
 .section__subtitle {
     display: block;
     font-size: var(--small-font-size);
     margin-bottom: .5rem;
-}
-
-.section_title {
-    text-align: center;
 }
 
 .container {
